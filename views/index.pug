@@ -1,0 +1,11 @@
+html
+    head 
+        link(rel = "stylesheet" href = "/css/styles.css")
+    body 
+        h1 🦆DUCK HUNT - HIGH SCORES🦆
+        table(style = 'width: 500px', border = '1')
+            for score in scores 
+                tr 
+                    td(class = "place")= score.place 
+                    td(class = "initials")= score.initials 
+                    td(class = "scores")= score.score 

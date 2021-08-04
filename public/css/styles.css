@@ -1,0 +1,29 @@
+body{
+    color:white;
+    background: #222222;
+    text-align:center;
+}
+h1 {
+    font-size:28px;
+}
+table{
+    width:75%;
+    border:1px;
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+td{
+    font-size:18px;
+    padding:5px
+}
+.place {
+    width:10%
+}
+.initials {
+    width:40%
+}
+.scores {
+    width:50%
+}
